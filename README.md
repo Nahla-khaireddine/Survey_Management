@@ -41,5 +41,14 @@ git clone https://github.com/Nahla-khaireddine/Questions_Management.git
 
 To test the application run the following command 
 ```
+mvn test
+```
+
+To build the application run the following command
+```
 mvn install
+```
+To execute the application run the following command
+```
+mvn compile  exec:java -Dexec.mainClass=com.cgm.QuestionCgmApp.SurveyManagement
 ```

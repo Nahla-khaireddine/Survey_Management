@@ -11,16 +11,16 @@ Write a java command line program that gives you two options. One to ask a speci
 
 -A Question can have multiple answers (like bullet points)
 
--If the user asks a question it has to be exactly the same as entered – no “best match”.
+-If the user asks a question it has to be exactly the same as entered â€“ no â€œbest matchâ€.
 
--If the user asks a question which is not stored yet the program should print “the answer to life, universe and everything is 42” according to “The hitchhikers guide to the Galaxy”
+-If the user asks a question which is not stored yet the program should print â€œthe answer to life, universe and everything is 42â€ according to â€œThe hitchhikers guide to the Galaxyâ€
 
 -If the user asks a question whish is  stored the program should print all answers to that question. Every Answer in a separate line
-Adding a question looks like: < question >? “< answer1 >” “< answer2 >” “< answerX >”
+Adding a question looks like: < question >? â€œ< answer1 >â€ â€œ< answer2 >â€ â€œ< answerX >â€
 
-Char “?” is the separator between question and answers
+Char â€œ?â€ is the separator between question and answers
 
--Every Question needs to have at least one answer but can have unlimited answers all inside of char “
+-Every Question needs to have at least one answer but can have unlimited answers all inside of char â€œ
 
 ## Implementation
 As technologies we will use:
@@ -39,7 +39,7 @@ Download the project using the next command:
 git clone https://github.com/Nahla-khaireddine/Questions_Management.git
 ```
 
-Run
+To test the application run the following command 
 ```
-mvn test
+mvn install
 ```

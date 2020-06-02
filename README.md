@@ -34,9 +34,9 @@ As technologies we will use:
 
 To run the project you need to open the command line. Navigate to the specified directory in which you want to download the project.
 
-Download the project using the next command:
+Download the project using the following command:
 ```
-git clone https://github.com/Nahla-khaireddine/Questions_Management.git
+git clone https://github.com/Nahla-khaireddine/Survey_Management.git
 ```
 
 To test the application run the following command 

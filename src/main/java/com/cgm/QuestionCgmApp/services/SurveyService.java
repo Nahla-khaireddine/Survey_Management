@@ -50,7 +50,7 @@ public class SurveyService {
 	 * @return String This return null if the question exists, otherwise it returns
 	 *         the checked exception
 	 */
-	public String askQuestion(String question, ArrayList<Question> listQuestions) {
+	public void askQuestion(String question, ArrayList<Question> listQuestions) {
 
 		int indice = getIndiceAnswer(question, listQuestions);
 
@@ -61,9 +61,9 @@ public class SurveyService {
 			}
 
 		} else
-			return SurveyConstant.HITCHHICKER_GUIDE_GALAXY;
+			System.out.println(SurveyConstant.HITCHHICKER_GUIDE_GALAXY);
 
-		return null;
+		
 	}
 
 	/**

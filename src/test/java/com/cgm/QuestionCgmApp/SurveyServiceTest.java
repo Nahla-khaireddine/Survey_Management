@@ -25,24 +25,7 @@ public class SurveyServiceTest {
 
 	}
 
-	@Test
-	public void testAskQuestion() {
-
-		ArrayList<Answer> listAnswers = new ArrayList<Answer>();
-		ArrayList<Question> listQuestions = new ArrayList<Question>();
-
-		listAnswers.add(new Answer("Pizza"));
-		listAnswers.add(new Answer("Spaghetti"));
-		listAnswers.add(new Answer("Ice cream"));
-
-		listQuestions.add(new Question("What is Peters favorite food?", listAnswers));
-
-		assertEquals(null, ss.askQuestion("What is Peters favorite food?", listQuestions));
-
-		assertEquals(SurveyConstant.HITCHHICKER_GUIDE_GALAXY,
-				ss.askQuestion("What is Nahla favorite food?", listQuestions));
-
-	}
+	
 
 	@Test
 	public void testGetIndiceAnswer() {

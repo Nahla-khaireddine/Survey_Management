@@ -34,7 +34,7 @@ public class SurveyManagement {
 
 				System.out.println(SurveyConstant.ASK_QST);
 
-				System.out.println(qstService.askQuestion(CgmUtils.getInputFromKeybord(), listQuestions));
+				qstService.askQuestion(CgmUtils.getInputFromKeybord(), listQuestions);
 			}
 
 			else
